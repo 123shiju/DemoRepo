@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>fetching data</h1>
+    <table id="user"></table>
+
+    <script>
+      fetch("https://jsonplaceholder.typicode.com/users")
+        .then((response) => response.json())
+        .then((json) => {
+          let li = `<tr><th>Name</th><th>Email</th><tr>`;
+
+          json.forEach((user) => {
+            li += `<tr>
+                    <td>${user.name}</td>
+                    <td>${user.email}</td>
+                    </tr>
+                    `;
+          });
+
+          document.getElementById("user").innerHTML = li;
+        });
+    </script>
+  </body>
+</html>

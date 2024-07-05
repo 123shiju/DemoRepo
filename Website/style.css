@@ -1,0 +1,11 @@
+.title {
+  color: #fff;
+}
+body {
+  background: url("./public/images/backgroundimage.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.link {
+  color: #fff;
+}

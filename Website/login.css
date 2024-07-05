@@ -1,0 +1,59 @@
+.logincard {
+  width: 800px;
+  height: 500px;
+  border: 2px solid rgb(31, 15, 31);
+  border-radius: 12px;
+  background: url("https://images.unsplash.com/photo-1516617442634-75371039cb3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww")
+    no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logincard,
+h1,
+p {
+  color: #fff;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.anchor {
+  color: #fff;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.loginForm input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+
+  width: 228px;
+  height: 30px;
+  border-radius: 10px;
+}
+.btn {
+  margin-left: 80px;
+  margin-left: 80px;
+  width: 88px;
+  background: blue;
+  color: #fff;
+  border-style: none;
+  height: 35px;
+  border-radius: 10px;
+}
+body {
+  background-color: rgb(141, 92, 86);
+}

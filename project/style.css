@@ -1,0 +1,11 @@
+.title {
+  color: rgb(215, 209, 221);
+}
+body {
+  background: url("./public/image/backgroundimage.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.navlink {
+  color: bisque;
+}
